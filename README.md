@@ -2,9 +2,11 @@
 # ✉️ eltahir.g@gmail.com
 # 🇺🇸 San Antonio, Texas, United States
 
-[Linkedin Profile](https://linkedin.com/in/eltahirgotar)
-[Github Account](https://github.com/gotar1)
-[Bio Page"](https://gotar1.github.io/)
+### [Linkedin Profile](https://linkedin.com/in/eltahirgotar)
+
+### [Github Account](https://github.com/gotar1)
+
+### [Bio Page"](https://gotar1.github.io/)
 
 *****
 *****
