@@ -3,42 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <title>My Bio</title>
-  <style>
-    h1 {
-      margin-bottom: 15px;
-      font-size: 60px;
-      color: white;
-      text-align: center;
-      background-color: black;
-      text-decoration: underline;
-    }
-    p {
-      font-size: 16px;
-      font-weight: bold;
-    }
-    img {
-      margin-left: auto;
-      margin-right: auto;
-      display: block;
-    }
-    ul {
-      text-align: center;
-      font-size: 16px;
-      border-style: solid;
-      border-width: 3px;
-      list-style-position: inside;
-    }
-    table {
-      font-size: 16px;
-      font-weight: bold;
-      text-align: center;
-    }
-    footer {
-        font-size: 14px;
-        text-align: center;
-        font-weight: lighter;
-    }
-  </style>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> -->
+  <link rel="stylesheet" href="/css/style.css">
+  <!-- <link rel="stylesheet" href="../static/css/d3Style.css"> -->
 </head>
 
 <body>
@@ -46,19 +14,35 @@
   <hr>
   <section>
     <p>
-      <img width="250" src="https://live.staticflickr.com/2535/4188650592_d245f48434_b.jpg" alt="Beauty is in the eyes of the beholder"/>
+      <img width="250" src="images/profile_pic.jpg" alt="Beauty is in the eyes of the beholder"/>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <p>Links to Some of My Projects</p>
+        <ul class="links">   
+          <li> 
+            <a class="link-text-color" target="_blank" href="https://covid-19-infection-dashboard.herokuapp.com/">COVID-19 Dashboard</a>
+          </li>
+          <li>
+            <a class="link-text-color" target="_blank" href="https://are-you-hot.herokuapp.com/">Are You Hot?</a>
+          </li>
+          <li>
+            <a class="link-text-color" target="_blank" href="https://gotar1.github.io/Web-Design-Challenge/">Web Design</a>
+          </li>
+          <li>
+            <a class="link-text-color" target="_blank" href="https://gotar1.github.io/leaflet-challenge/">Earthquake Map</a>
+          </li>
+        </ul>
+      </div>
       <br>
-      "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."<br>
-      "There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain..."
+      <p>"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."<br>
+      "There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain..."</p>
     </p>
     <br>
     <h2><strong>About Me</strong></h2>
-    <p>  
-      Hello, My name is Eltahir Gotar. Am a graduate of Penn State University class of 2010 majoring in chemical engineering. Currently am taking a data science bootcamp which will be done by end of December. 
-    </p>
-    <p>
-      It is quite a learning experience doning this bootcamp. At first I wasn't sure if I wanted to continue or not however, now am glad am still going and am loving every piece of it. Data science and statistic is very challenging and very fun at the same time. I LOVE IT.
-    </p> 
+    <p>Hello, My name is Eltahir Gotar. Am a graduate of Penn State University class of 2010 majoring in chemical engineering.</p>    
+    <p>I just finished a data analytics and visualization boot-camp at University of Texas, San Antonio (UTSA).</p>    
+    <p>It is quite a learning experience doning this bootcamp. At first I wasn't sure if I wanted to continue or not however,</p>
+    <p>now am glad I finished it. Data science and statistic is very challenging and very fun at the same time. I LOVE IT.</p>
+    <p>Above, are links to some project I been involved in. Please take a look, specially the 'Are You Hot?' one, I dare you to take the test</p>
   </section>
   
   <table border="1">
@@ -86,11 +70,12 @@
 
 </body>
 <section>
-    <ul>
+    <ul class="contact">
       <li><strong>Contact  </strong><a target="_blank" href="mailto: eltahir.g@gmail.com/">Send Email</a></li>
       <li><a target="_blank" href="https://www.linkedin.com/in/eltahirgotar/">My linkedin</a></li>
+      <li><a target="_blank" href="https://github.com/gotar1">My GitHub</a></li>
     </ul>
   </section>
-<footer> © 2020 all rights reserved @eltahir gotar</footer>
+<footer> © 2020 all rights reserved @Eltahir Gotar</footer>
 
 </html>
