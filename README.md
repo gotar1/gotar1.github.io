@@ -2,11 +2,9 @@
 # ✉️ eltahir.g@gmail.com
 # 🇺🇸 San Antonio, Texas, United States
 
-[<img src="https://ryan.zernach.com/wp-content/uploads/2020/04/Ryan_Zernach_com_Button.png" alt="alt text" width="260" height="79">](https://ryan.zernach.com)
 [Linkedin Profile](https://linkedin.com/in/eltahirgotar)
-
-[<"Github Account" alt="alt text" width="260" height="79">](https://github.com/zernach)
-[<"Bio Page" alt="alt text" width="260" height="79">](https://gotar1.github.io/)
+[Github Account](https://github.com/gotar1)
+[Bio Page"](https://gotar1.github.io/)
 
 *****
 *****
@@ -39,7 +37,7 @@
 
 ### Links to Additional Details in Project Titles
 
-## [COVID-19 Dashboard]("https://covid-19-infection-dashboard.herokuapp.com/") — A Reactive Dashboard to Track Covid-19 Data for All USA States and Territories.
+## [COVID-19 Dashboard](https://covid-19-infection-dashboard.herokuapp.com/) — A Reactive Dashboard to Track Covid-19 Data for All USA States and Territories.
 
 > * Manipulated raw data from CDC and build a SQLite DataBase.
 > * Build a Flask App to facilitate JSON GET requests.
