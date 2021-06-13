@@ -1,3 +1,5 @@
+/* General style sheet */
+
 body {
     background-color: rgb(8, 133, 52);
 }
@@ -14,12 +16,23 @@ h4 {
     text-align: center;
     padding-left: 500px;
     position: absolute;
-    color: black;
+    color: rgb(201, 192, 66);
     font-size: 25px;
+    margin-top: 50px;
 
 }
 
-.links {
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    display: inline;
+  }
+
+/* .links {
     margin-bottom: 10px;
     padding-bottom: 15px;
     margin-right: 10px;
@@ -27,11 +40,11 @@ h4 {
     font-size: 22px;
     text-align: left;
     background-color: rgb(201, 182, 182);
-    display: flex;
+    display: inline;
     flex-wrap: wrap;
     justify-content: space-between;
 
-}
+} */
 
 .links ul li a {
     margin: 15px;
@@ -50,7 +63,7 @@ font-size: 16px;
 font-weight: bold;
 color:black;
 text-align: left; 
-display: flex; 
+/* display: flex;  */
 flex-wrap: wrap;
 }
 
@@ -71,18 +84,26 @@ border-radius: 10px;
 border-color: yellowgreen;
 }
 
+th {
+    font-weight:bolder;
+    font-size: larger;
+
+}
+
+/* Footer style */
+footer {
+font-size: 14px;
+text-align: center;
+font-weight: lighter;
+}
+
+/* Contact section style */
 .opaque:hover {
     opacity: 0.5;
 }
 
 .opaque {
     cursor: pointer;
-}
-
-footer {
-font-size: 14px;
-text-align: center;
-font-weight: lighter;
 }
 
 #contact-pics a {
@@ -94,14 +115,15 @@ font-weight: lighter;
 #contact-pics {
     margin: 10px;
     display: flex;
+    padding-left: 200px;
 }
 
 .container-Mail {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
     box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
     background-size: cover;
-    width: 250px;
-    height: 250px;
+    width: 100px;
+    height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -116,8 +138,8 @@ font-weight: lighter;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
     box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
     background-size: cover;
-    width: 250px;
-    height: 250px;
+    width: 100px;
+    height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -132,8 +154,8 @@ font-weight: lighter;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
     box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
     background-size: cover;
-    width: 250px;
-    height: 250px;
+    width: 100px;
+    height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -148,8 +170,8 @@ font-weight: lighter;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
     box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
     background-size: cover;
-    width: 250px;
-    height: 250px;
+    width: 100px;
+    height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -160,12 +182,14 @@ font-weight: lighter;
     border-color: yellowgreen;
 }
 
+/* Large screen */
 @media screen and (max-width:1285px) {
     #contact-pics {
         flex-wrap: wrap;
     }
 }
 
+/* small screen */
 @media screen and (max-width:698px) {
     #bio {
         margin-right: 5px;

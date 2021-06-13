@@ -1,5 +1,6 @@
-/* STYLING CREDIT TO MAHESH AMBURE TAKEN FROM CODE PEN */
+/* Overall style sheet for bio page */
 
+/* Pojects section style */
 .grid {
   position: relative;
   margin: 0 auto;
@@ -13,7 +14,6 @@
   border-color: yellowgreen;
 }
 
-/* Common style */
 .grid figure {
   position: relative;
   float: left;
@@ -64,7 +64,6 @@
   height: 125%;
 }
 
-/* Grid Style */
 .grid figure figcaption > a {
   z-index: 1000;
   text-indent: 200%;
@@ -142,7 +141,7 @@ figure.my-taste:hover p {
   transform: translate3d(0,0,0);
 }  
 
-
+/* Different screen sizes */
 @media screen and (max-width: 250em) {
   .content {
     padding: 0 10px;
