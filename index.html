@@ -1,81 +1,211 @@
 <!DOCTYPE html>
 <html lang="en-us">
-<head>
-  <meta charset="UTF-8">
-  <title>My Bio</title>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> -->
-  <link rel="stylesheet" href="/css/style.css">
-  <!-- <link rel="stylesheet" href="../static/css/d3Style.css"> -->
-</head>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eltahir Gotar</title>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/314b510ada.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/style2.css">
+    <!-- <link rel="stylesheet" href="../static/css/d3my-taste.css"> -->
+  </head>
 
-<body>
-  <strong><h1>Eltahir Gotar</h1></strong>
-  <hr>
-  <section>
-    <p>
-      <img width="250" src="images/profile_pic.jpg" alt="Beauty is in the eyes of the beholder"/>
-      <div class="collapse navbar-collapse" id="myNavbar">
-        <p>Links to Some of My Projects</p>
-        <ul class="links">   
-          <li> 
-            <a class="link-text-color" target="_blank" href="https://covid-19-infection-dashboard.herokuapp.com/">COVID-19 Dashboard</a>
+  <!--Header and Navigation-->
+  <body>
+    <div id="nav">    
+      <header>     
+        <strong></strong><h1>Eltahir Gotar</h1></strong>
+      </header>
+      <h4 class="titles">Welcome To My Portfolio</h4>
+      <nav class="links">
+        <ul>
+          <li>
+            <a href ="#about-me">About Me</a>
           </li>
           <li>
-            <a class="link-text-color" target="_blank" href="https://are-you-hot.herokuapp.com/">Are You Hot?</a>
+            <a href ="#projects">Projects</a>
           </li>
           <li>
-            <a class="link-text-color" target="_blank" href="https://gotar1.github.io/World-Weather-Analysis/">Web Design</a>
-          </li>
-          <li>
-            <a class="link-text-color" target="_blank" href="https://gotar1.github.io/Earthquake-map/">Earthquake Map</a>
+            <a href ="#contact">Contact</a>
           </li>
         </ul>
+        
+      </nav>      
+    </div>
+    <hr>
+
+    <!--About Me Section-->
+    <section id = "about-me">
+      <div class="content-block">
+        <div class="side" id="side-a">
+          <div class="bar">
+            <h1>About Me</h1>
+          </div>
+        </div>
+
+        <div id="bio">
+          <img width="200" src="images/profile_pic.jpg" alt="Beauty is in the eyes of the beholder"/>
+          <p>
+            Hello, My name is Eltahir Gotar. Am a graduate of Penn State University class of 2010 majoring in chemical engineering. I just finished a
+            data analytics and visualization boot-camp at University of Texas, San Antonio (UTSA). 
+            It was quite a learning experience doing this bootcamp. At first I wasn't sure if I wanted to continue or not however, 
+            now am glad I finished it. Data science and statistic is very challenging and very fun at the same time. I LOVE IT. 
+            In project section below you will find links to some projects I been involved in. Please take a look, specially the 'Are You Hot?' one, I dare you to take the test
+          </p>
+        </div>
+
       </div>
-      <br>
-      <p>"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."<br>
-      "There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain..."</p>
-    </p>
-    <br>
-    <h2><strong>About Me</strong></h2>
-    <p>Hello, My name is Eltahir Gotar. Am a graduate of Penn State University class of 2010 majoring in chemical engineering.</p>    
-    <p>I just finished a data analytics and visualization boot-camp at University of Texas, San Antonio (UTSA).</p>    
-    <p>It is quite a learning experience doning this bootcamp. At first I wasn't sure if I wanted to continue or not however,</p>
-    <p>now am glad I finished it. Data science and statistic is very challenging and very fun at the same time. I LOVE IT.</p>
-    <p>Above, are links to some project I been involved in. Please take a look, specially the 'Are You Hot?' one, I dare you to take the test</p>
-  </section>
-  
-  <table border="1">
-    <tr>
-      <th>Favorite Movies</th>
-      <th>Favorite Books</th>
-      <th>Favorite Songs</th>
-    </tr>
-    <tr>
-      <td>Harlem Knights</td>
-      <td>Brothers Karamazov</td>
-      <td>Redemption Song</td>
-    </tr>
-    <tr>
-      <td>Smokey and the Bandit</td>
-      <td>Pride and Prejudice</td>
-      <td>Members Only</td>
-    </tr>
-    <tr>
-      <td>Dances with Wolves</td>
-      <td>Emma</td>
-      <td>Ain't No Love in the Heart of the City</td>
-    </tr>
-  </table>
 
-</body>
-<section>
-    <ul class="contact">
-      <li><strong>Contact  </strong><a target="_blank" href="mailto: eltahir.g@gmail.com/">Send Email</a></li>
-      <li><a target="_blank" href="https://www.linkedin.com/in/eltahirgotar/">My linkedin</a></li>
-      <li><a target="_blank" href="https://github.com/gotar1">My GitHub</a></li>
-    </ul>
-  </section>
-<footer> © 2020 all rights reserved @Eltahir Gotar</footer>
+      <!-- Favorites table -->
+      <table border="1">
+        <tr>
+          <th>Favorite Movies</th>
+          <th>Favorite Books</th>
+          <th>Favorite Songs</th>
+        </tr>
+        <tr>
+          <td>Harlem Knights</td>
+          <td>Brothers Karamazov</td>
+          <td>Redemption Song</td>
+        </tr>
+        <tr>
+          <td>Smokey and the Bandit</td>
+          <td>Pride and Prejudice</td>
+          <td>Members Only</td>
+        </tr>
+        <tr>
+          <td>Dances with Wolves</td>
+          <td>Emma</td>
+          <td>Ain't No Love in the Heart of the City</td>
+        </tr>
+      </table>
+    </section>
 
+    <!--Projects Section-->
+    <section id="projects">
+      <div class="content-block">
+        <div class="side" id="side-b">
+          <div class="bar" id="bar-b">
+            <h1>Projects</h1>
+          </div>
+        </div> 
+
+        <div id="thumbnail">
+          <div class="grid">
+            <figure class="my-taste">
+              <img src="https://thumbs.gfycat.com/SpiffyFlusteredFlicker-small.gif" alt="Covid-19 Virus"/>
+              <figcaption>
+                <h2>Covid-19 Infection Dashboard</h2>
+                <p>An interactive dashboard showing monthly Covid-19 infection, numbers of death and recovery rates for all 
+                  U.S.A States and Territories.</p>
+                <a href="https://covid-19-infection-dashboard.herokuapp.com/" target="_blank">View more</a>
+              </figcaption>     
+            </figure>
+            <figure class="my-taste">
+              <img src="https://thumbs.gfycat.com/AthleticSimpleHuemul.webp" target="_blank" alt="a Hot Picture."/>
+              <figcaption>
+                <h2>Are You Hot</h2>
+                <p>This is a Machine Learning Project. We built a model to predict if a person is hot or not based on physical
+                  characteristics of celebrities from IMDb website "100 Most Beautiful People on the Planet!" 
+                  and "Ugly Celebrities" lists.</p>
+                <a href="https://are-you-hot.herokuapp.com/" target="_blank">View more</a>
+              </figcaption>     
+            </figure>
+          </div>
+          <br/>
+          <div class="grid">
+            <figure class="my-taste">
+              <img src="images/visual.png" alt="world map"/>
+              <figcaption>
+                <h2>World Weather Analysis</h2>
+                <p>Visualization Dashboard Website Using Plots we've Created in a Past Project analyzing the weather 
+                  for over 500 cities worldwide. </p>
+                <a href="https://gotar1.github.io/World-Weather-Analysis/" target="_blank">View more</a>
+              </figcaption>     
+            </figure>
+            <figure class="my-taste">
+              <img src="images/map.gif" alt="a map."/>
+              <figcaption>
+                <h2>Earthquake map</h2>
+                <p> Leaflet Map showing up-to date Earthquakes around the world. Map uses updated Data from United States 
+                  Geological Survey(USGS). </p>
+                <a href="https://gotar1.github.io/Earthquake-map/" target="_blank">View more</a>
+              </figcaption>     
+            </figure>
+          </div>
+          <br/>
+          <div class="grid">
+            <figure class="my-taste">
+              <img src="https://thumbs.gfycat.com/FailingLiquidFlies-small.gif" alt="LOTR"/>
+              <figcaption>
+                <h2>Lord Of The Rings</h2>
+                <p>ETL project. We explored the Lord of The Rings (LOTR) movie series and decided to build a postgresSQL 
+                  DataBase that make it easy to access needed information about the movies, characters, chapters and dialogues.</p>
+                <a href="https://github.com/gotar1/Data-Engineering-Sqlalchemy" target="_blank">View more</a>
+              </figcaption>     
+            </figure>
+            <figure class="my-taste">
+              <img src="https://thumbs.gfycat.com/BeautifulLinearLeonberger-size_restricted.gif" alt="a Gun"/>
+              <figcaption>
+                <h2>Gun Laws Analysis</h2>
+                <p>In this project we looked at gun laws and how effective they are in lowering gun's related deaths.</p>
+                <a href="https://github.com/gotar1/Gun-Laws-Analysis" target="_blank">View more</a>
+              </figcaption>     
+            </figure>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!--Contact Section-->
+    <section id="contact">
+      <div class="content-block">
+        <div class="side" id="side-c">
+          <div class="bar" id="bar-c">
+            <h1>Contact</h1>
+          </div>
+        </div>
+
+        <div id="contact-pics">
+
+          <a href="mailto:eltahir.g@gmail.com/">
+            <div class="container-Mail opaque">
+              <div class="img-text"><i class="fas fa-at"></i></i>Email</div>
+            </div>
+          </a>
+
+          <a href="https://www.linkedin.com/in/eltahirgotar/" target="_blank">
+            <div class="container-In opaque" >
+              <div class="img-text"><i class="fab fa-linkedin"></i>Linkedin</div>
+            </div>
+          </a>
+
+          <a href="https://github.com/gotar1" target="_blank">
+            <div class="container-Git opaque">
+              <div class="img-text"><i class="fab fa-github"></i>GitHub</div>
+            </div>
+          </a>
+
+          <a href="images/Eltahir Gotar_Resume.pdf" target="_blank" download>
+            <div class="container-Cv opaque">
+              <div class="img-text"><i class="far fa-file"></i></i>Resume</div>
+            </div>
+          </a>
+
+        </div>
+      </div>
+
+      <!--Footer Section-->
+      <footer>
+        <h4> © 2020 all rights reserved @Eltahir Gotar</h4>
+      </footer>
+
+    </section> 
+    
+  </body>
 </html>

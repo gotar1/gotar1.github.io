@@ -1,28 +1,57 @@
 body {
-    background-color: rgb(194, 243, 211);
+    background-color: rgb(8, 133, 52);
 }
 h1 {
     margin-bottom: 15px;
-    font-size: 60px;
-    color: white;
+    font-size: 50px;
+    color: rgb(201, 192, 66);
     text-align: center;
-    background-color: black;
+    background-color: rgb(117, 150, 115);
     text-decoration: underline;
 }
 
-.links {
-    margin-bottom: 15px;
+h4 {
+    text-align: center;
+    padding-left: 500px;
+    position: absolute;
+    color: black;
     font-size: 25px;
-    color: white;
+
+}
+
+.links {
+    margin-bottom: 10px;
+    padding-bottom: 15px;
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 22px;
     text-align: left;
     background-color: rgb(201, 182, 182);
-    text-decoration: underline;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 
+}
+
+.links ul li a {
+    margin: 15px;
+    font-size: 22px;
+    font-weight: bold;
+    color: rgb(23, 20, 197);
+    transition: 1s;
+}
+
+.links ul li a:hover {
+    font-size: 25px;
 }
 
 p {
 font-size: 16px;
 font-weight: bold;
+color:black;
+text-align: left; 
+display: flex; 
+flex-wrap: wrap;
 }
 
 img {
@@ -31,22 +60,123 @@ margin-right: auto;
 display: block;
 }
 
-.contact {
-text-align: center;
-font-size: 16px;
-border-style: solid;
-border-width: 3px;
-list-style-position: inside;
-}
-
 table {
 font-size: 16px;
 font-weight: bold;
+color:black;
 text-align: center;
+border-style: solid;
+border-width: thick;
+border-radius: 10px;
+border-color: yellowgreen;
+}
+
+.opaque:hover {
+    opacity: 0.5;
+}
+
+.opaque {
+    cursor: pointer;
 }
 
 footer {
 font-size: 14px;
 text-align: center;
 font-weight: lighter;
+}
+
+#contact-pics a {
+	color: white;
+    font-weight: bold;
+
+}
+
+#contact-pics {
+    margin: 10px;
+    display: flex;
+}
+
+.container-Mail {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
+    background-size: cover;
+    width: 250px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+    border-style: solid;
+    border-width: thick;
+    border-radius: 10px;
+    border-color: yellowgreen;
+}
+
+.container-In {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
+    background-size: cover;
+    width: 250px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+    border-style: solid;
+    border-width: thick;
+    border-radius: 10px;
+    border-color: yellowgreen;
+}
+
+.container-Git {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
+    background-size: cover;
+    width: 250px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+    border-style: solid;
+    border-width: thick;
+    border-radius: 10px;
+    border-color: yellowgreen;
+}
+
+.container-Cv {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
+    background-size: cover;
+    width: 250px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+    border-style: solid;
+    border-width: thick;
+    border-radius: 10px;
+    border-color: yellowgreen;
+}
+
+@media screen and (max-width:1285px) {
+    #contact-pics {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width:698px) {
+    #bio {
+        margin-right: 5px;
+    }
+
+    figcaption h2 {
+        font-size: 18px;
+    }
+
+    #bio img {
+        width: 50%;
+    }
+
 }

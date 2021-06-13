@@ -1,0 +1,209 @@
+/* STYLING CREDIT TO MAHESH AMBURE TAKEN FROM CODE PEN */
+
+.grid {
+  position: relative;
+  margin: 0 auto;
+  padding: 1em 0 4em;
+  max-width: 1000px;
+  list-style: none;
+  text-align: center;
+  border-style: solid;
+  border-width: thick;
+  border-radius: 10px;
+  border-color: yellowgreen;
+}
+
+/* Common style */
+.grid figure {
+  position: relative;
+  float: left;
+  overflow: hidden;
+  margin: 10px 1%;
+  min-width: 220px;
+  max-width: 490px;
+  max-height: 360px;
+  width: 48%;
+  background: #3085a3;
+  text-align: center;
+  cursor: pointer;
+}
+
+.grid figure img {
+  position: -webkit-sticky;
+  float:initial;
+  display: block;
+  min-height: 100%;
+  max-width: 100%;
+  opacity: 0.9;
+  border-style: solid;
+  border-width: thick;
+  border-color: black;
+}
+
+.grid figure figcaption {
+  padding: 1.25em;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1.25em;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.grid figure figcaption::before,
+.grid figure figcaption::after {
+  pointer-events: none;
+}
+
+.grid figure figcaption,
+.grid figure figcaption > a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 125%;
+}
+
+/* Grid Style */
+.grid figure figcaption > a {
+  z-index: 1000;
+  text-indent: 200%;
+  white-space: nowrap;
+  font-size: 0;
+  opacity: 0;
+}
+
+.grid figure h2 {
+  word-spacing: -0.15em;
+  font-weight: 300;
+}
+
+.grid figure h2,
+.grid figure p {
+  margin: 100;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  font-style: normal;
+  font-size: xlarge;
+}
+
+.grid figure p {
+  letter-spacing: 0.5px;
+  font-size: 68.5%;
+}
+
+/* my-taste Style */
+
+figure.my-taste:hover img {
+  opacity: 0.4;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5))
+}
+
+figure.my-taste figcaption::after {
+  position: absolute;
+  right: 30px;
+  bottom: 30px;
+  left: 30px;
+  height: -webkit-calc(50% - 30px);
+  height: calc(50% - 30px);
+  content: '';
+  -webkit-transition: -webkit-transform 0.35s;
+  transition: transform 0.35s;
+  -webkit-transform: translate3d(0,-100%,0);
+  transform: translate3d(0,-100%,0);
+}
+
+figure.my-taste:hover figcaption::after {
+  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+}
+
+figure.my-taste figcaption {
+  padding: 0em;
+  text-align: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2))
+}
+
+figure.my-taste p {
+  position: absolute;
+  right: 60px;
+  bottom: 60px;
+  left: 60px;
+  opacity: 0;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(0,-100px,0);
+  transform: translate3d(0,-100px,0);
+}
+
+figure.my-taste:hover p {
+  opacity: 1;
+  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+}  
+
+
+@media screen and (max-width: 250em) {
+  .content {
+    padding: 0 10px;
+    text-align: center;
+  }
+  .grid figure {
+    display: inline-block;
+    float: none;
+    margin: 10px auto;
+    width: 100%;
+  }
+}
+*, *:after, *:before { -webkit-box-sizing: border-box; box-sizing: border-box; }
+.clearfix:before, .clearfix:after { display: table; content: ''; }
+.clearfix:after { clear: both; }
+
+body {
+  background: rgb(86, 141, 109);
+  color: #fff;
+  font-weight: 400;
+  font-size: 1em;
+  font-family: 'Raleway', Arial, sans-serif;
+}
+
+a {
+  outline: none;
+  color: #3498db;
+  text-decoration: none;
+}
+
+a:hover, a:focus {
+  color: #528cb3;
+}
+
+section {
+  padding: 1em;
+  text-align: center;
+}
+
+.content {
+  margin: 0 auto;
+  max-width: 1000px;
+}
+
+.content > h2 {
+  clear: both;
+  margin: 0;
+  padding: 4em 1% 0;
+  color: #484B54;
+  font-weight: 800;
+  font-size: 1.5em;
+}
+
+.content > h2:first-child {
+  padding-top: 0em;
+}
+
+@media screen and (max-width: 25em) {
+  #contact-pics {
+    margin: 10px;
+    display: flex;
+    /* border: white; */
+}
+}
