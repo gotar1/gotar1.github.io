@@ -22,6 +22,17 @@ h4 {
 
 }
 
+#topbutton {
+    color: rgb(23, 20, 197);
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+
+#topbutton :hover {
+    font-size: 25px;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -97,6 +108,7 @@ footer {
 font-size: 14px;
 text-align: center;
 font-weight: lighter;
+padding-left: 300px;
 }
 
 /* Contact section style */
