@@ -39,13 +39,13 @@
 
 ### Links to Additional Details in Project Titles
 
-## [COVID-19 Dashboard](https://covid-19-infection-dashboard.herokuapp.com/) — A Reactive Dashboard to Track Covid-19 Data for All USA States and Territories.
+## [COVID-19 Dashboard](https://covid-19-dashboard-jsrk.onrender.com/) — A Reactive Dashboard to Track Covid-19 Data for All USA States and Territories.
 
 > * Manipulated raw data from CDC and build a SQLite DataBase.
 > * Build a Flask App to facilitate JSON GET requests.
 > * Launched the app to Heroku.
 
-## [Are You Hot](https://are-you-hot.herokuapp.com/) — Machine Learning Model to Predict Whether Person Looks Hot or Not based on thier body statistics. 
+## [Are You Hot](https://are-you-hot.onrender.com/) — Machine Learning Model to Predict Whether Person Looks Hot or Not based on thier body statistics. 
 
 > * Built front-end user interface with Flask for user to interact with a predictive machine learning model
 > * Created our own data and Build our own database.
